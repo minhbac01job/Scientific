@@ -61,7 +61,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="10dp"
-                    android:text="Nguyễn Đình Phong"
+                    android:text="Lê Minh Bắc"
                     android:textColor="@android:color/holo_blue_dark"
                     android:textSize="20.0sp"
                     android:textStyle="bold"

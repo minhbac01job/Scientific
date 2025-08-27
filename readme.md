@@ -3,7 +3,7 @@
 + Form đăng nhập cho phép người dùng là học viên hoặc phụ huynh nhập email và mật khẩu được cấp bởi admin để đăng nhập.
 +  Nếu đăng nhập xảy ra bất cứ lỗi gì 1 Toast thông báo hiện lên thông báo chính xác lỗi đó.
 
-![alt text](https://github.com/nguyendinhphongdx/Scientific/blob/v2/main/image-app/login.png)
+![alt text](https://github.com/minhbac01job/Scientific/blob/main/image-app/login.png)
 
 2. HOme
 - Đặc tả chức năng:
@@ -11,14 +11,14 @@
  +  1 Biểu đồ thể hiện điểm theo lớp đang học.
 +   1 Danh sách các lớp học và môn học cùng với điểm của lớp đó.
 +   1 số thông tin tổng quan nhất bao gồm: tổng khóa học / lớp học đang theo, tổng số tiền của tất cả khóa học, điểm trung bình tất cả các lớp đang theo.
-![alt text](https://github.com/nguyendinhphongdx/Scientific/blob/v2/main/image-app/home.png)
+![alt text](https://github.com/minhbac01job/Scientific/blob/main/image-app/home.png)
 
 3. Classes
 - Đặc tả chức năng:
 +   Danh sách các lớp lớp học đang theo học.
 +   Click vào lớp học để xem chi  tiết của lớp học đó, bao gồm các thông : giảng viên của lớp, các thành viên cùng lớp. danh sách tài liệu đã được upload lên của lớp đó.
 
-![alt text](https://github.com/nguyendinhphongdx/Scientific/blob/v2/main/image-app/classes.png)
+![alt text](https://github.com/minhbac01job/Scientific/blob/main/image-app/classes.png)
 
 4.Schedule
 - Đặc tả chức năng:
@@ -28,7 +28,7 @@ bao gồm thông tin về lớp, môn học, thời gian học giờ học và t
 + Lịch học này sử dụng cơ chế realtime của socket.io nodejs, có nghĩa là khi có tác động, hay thông báo từ phía admin hay giảng viên đến lớp học mà sinh viên có theo học, sẽ nhận được thông báo ngay lập tức và trạng thái của lịch học đó sẽ bị thay đổi mà không cần phải restart ứng dụng để cập nhật.
 -> đây là 1 tính năng vượt trội và cần thiết của ứng dụng.
 
-![alt text](https://github.com/nguyendinhphongdx/Scientific/blob/v2/main/image-app/schedule.png)
+![alt text](https://github.com/minhbac01job/Scientific/blob/main/image-app/schedule.png)
 
 5. Profile
 - Đặc tả chứng năng:
@@ -39,5 +39,3 @@ bao gồm thông tin về lớp, môn học, thời gian học giờ học và t
  	Tuổi	
  	Email 
 + Các button cho các chức năng khác : Đăng xuất, đổi mật khẩu.
-
-![alt text](https://github.com/nguyendinhphongdx/Scientific/blob/v2/main/image-app/profile.png)
